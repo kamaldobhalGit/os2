@@ -1,0 +1,81 @@
+import { DISPATCH_STATUS } from "./constant";
+
+export const DISPATCH_LIST = [
+  {
+    id: 1,
+    name: `dispatch-1`,
+    status: DISPATCH_STATUS.CREATED,
+    createdAt: new Date().getTime(),
+    totalOrders: 90,
+  },
+  {
+    id: 2,
+    name: `dispatch-2`,
+    status: DISPATCH_STATUS.CREATED,
+    createdAt: new Date().getTime(),
+    totalOrders: 40,
+  },
+  {
+    id: 3,
+    name: `dispatch-3`,
+    status: DISPATCH_STATUS.IN_PROGRESS,
+    createdAt: new Date().getTime() - 978979,
+    totalOrders: 220,
+  },
+  {
+    id: 4,
+    name: `dispatch-4`,
+    status: DISPATCH_STATUS.IN_PROGRESS,
+    createdAt: new Date().getTime() - 98798798,
+    totalOrders: 20,
+  },
+  {
+    id: 5,
+    name: `dispatch-5`,
+    status: DISPATCH_STATUS.CLOSED,
+    createdAt: new Date().getTime() - 98798789,
+    totalOrders: 120,
+  },
+  {
+    id: 6,
+    name: `dispatch-6`,
+    status: DISPATCH_STATUS.IN_PROGRESS,
+    createdAt: new Date().getTime() - 54676567,
+    totalOrders: 29,
+  },
+  {
+    id: 7,
+    name: `dispatch-7`,
+    status: DISPATCH_STATUS.CREATED,
+    createdAt: new Date().getTime() - 678,
+    totalOrders: 2,
+  },
+  {
+    id: 8,
+    name: `dispatch-8`,
+    status: DISPATCH_STATUS.IN_PROGRESS,
+    createdAt: new Date().getTime() - 657576,
+    totalOrders: 1120,
+  },
+  {
+    id: 9,
+    name: `dispatch-9`,
+    status: DISPATCH_STATUS.IN_PROGRESS,
+    createdAt: new Date().getTime() - 90809,
+    totalOrders: 40,
+  },
+  {
+    id: 10,
+    name: `dispatch-10`,
+    status: DISPATCH_STATUS.CLOSED,
+    createdAt: new Date().getTime() - 78687687,
+    totalOrders: 230,
+  },
+  {
+    id: 11,
+    name: `dispatch-11`,
+    status: DISPATCH_STATUS.CLOSED,
+    createdAt: new Date().getTime() - 5876578,
+    totalOrders: 870,
+  },
+];

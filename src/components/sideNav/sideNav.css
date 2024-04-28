@@ -1,0 +1,11 @@
+/* SideNavbar.css */
+
+.side-navbar {
+  background-color: #f8f9fa; /* Example background color */
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
